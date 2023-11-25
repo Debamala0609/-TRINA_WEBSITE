@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="task2.css">
+        <title> The Registration Form</title>
+    </head>
+    <body>
+    <form action="" align="center">
+       <h1 align="center">Registration Form</h1>
+       <table >
+         <table border="2" cellpadding="10" align="center">
+                <tbody class="center">
+<!--for NAME........................................................................-->
+                 <tr>
+                    <td><label for="firstname"> First Name </label></td> 
+                    <td>
+                        <div>
+                          <input type="text" firstname=" name" placeholder="Enter your first name">
+                        </div>
+                    </td>
+                 </tr>
+
+                 <tr>
+                        <td><label for="lastname"> Last Name</label></td> 
+                        <td>
+                            <div>
+                              <input type="text" lastname=" name" placeholder="Enter your last name">
+                            </div>
+<!--GENDER........................................................................-->
+                </td>
+                 </tr>
+                 <tr>
+                 <div>
+                    <td><label for ="gender">Gender</label></td>
+                    <td> <input type="radio" name="gender" id value="male">
+                   "Male"
+                   <input type="radio" name="gender" id value="female">
+                   "Female"
+                 </div>
+                </td>
+                </tr>
+<!--qualification.................................................-->
+                <tr>
+                    <div>
+                       <td><label for ="qualification">Qualification</label></td>
+                       <td> <input type="radio" name="qualification" id value="MCA">
+                      "MCA"
+                      <input type="radio" name="qualification" id value="MBA">
+                      "MBA"
+                     <input type="radio" name="qualification" id value="MTECH">
+                      "MTECH"
+                      <input type="radio" name="qualification" id value="OTHER">
+                      "OTHER"
+                      </td>
+                    </div>
+                </tr>
+<!--FOR CONTACT........................................................................-->
+               <div>
+                <tr>
+                 <td>
+                    <label for="contact"> Contact</label> 
+                </td>
+                <td>
+                    <input type="number" contact number="contact" placeholder="give valid phone number">
+                </td>
+                </tr>
+                </div>
+<!--FOR gmail........................................................................-->
+                <div>
+                    <tr>
+                        <td><label for="Email"> Email</label> </td>
+                    <td>
+                        <input type="email" email id="Email" placeholder="@gmail.com">
+                    </td>
+                    </tr>
+                    </div>
+<!--FOR ADDRESS........................................................................-->
+                <div>
+                    <td> 
+                        <label for="address">Address</label>
+                    </td>
+                    <td>
+                        <textarea name="address" id></textarea>
+                    </td>
+                </div>
+<!--FOR select depertment........................................................................--> 
+               <div>
+                <tr>
+                 <td> <label for="select"> Select Department</label></td>>
+                 <td>
+                    <select name="select" id>
+                   
+                    <option value>1.MSc Data Science   </option>
+                    <option value>2.MBA                </option>
+                    <option value>3.MSc Global Finance</option>
+                    <option value>4.MSc Economics      </option>
+                </select>
+                </td>
+                </tr>
+            </div>
+           
+        
+ <!--for register and cancel .....................................-->           
+
+            <div>
+               <td align="center" colspan="2">
+                <button class="button1" onclick="appendToDisplay('register')">register</button>
+    
+                 <button class="button2" onclick="appendToDisplay('cancel')">cancel</button>
+
+            </td>
+            </div>
+                </tbody>
+            </table>
+
+        </table>
+    </form>
+
+<!--LOGIN FORM..........................................-->
+<br>
+<br>
+<br>
+<br>
+<br>
+<form action="">
+<h1 align="center"><b><u> Login Form</u></b></h1>
+<table class="center">
+    <table border="2" cellpadding="10" align="center">
+        <tbody>
+<!--for NAME........................................................................-->
+         <tr>
+            <td><label for="User Name"> User Name</label></td> 
+            <td>
+                <div>
+                  <input type="text" user name="username" placeholder="Enter your user name">
+                </div>
+            </td>
+         </tr>
+
+         <tr>
+                <td><label for="password"> Password</label></td> 
+                <td>
+                    <div>
+                      <input type="password" password="Password" placeholder="Enter your password">
+                    </div>
+</form>
+     </body>
+     </html>

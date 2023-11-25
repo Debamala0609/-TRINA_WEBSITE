@@ -1,0 +1,23 @@
+h1{
+    color:yellow;
+    background-color: brown;
+    font-family: cursive ;
+    font: 100;
+    font-stretch: expanded;
+    text-align: center;
+    text-decoration: overline;
+    text-shadow: 0svb;
+    text-decoration-color: blueviolet;
+}
+.ptag{
+    background-color: rgb(224, 224, 77);
+    color: rgb(149, 44, 44);
+    border: 5px double blue;
+    text-align: center;
+}
+.jtag{
+    background-color: rgb(224, 224, 77);
+    color: rgb(149, 44, 44);
+    border: 5px double blue;
+    text-align: center;
+}

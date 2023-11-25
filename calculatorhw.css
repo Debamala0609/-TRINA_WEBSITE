@@ -1,0 +1,16 @@
+.row {
+    display: flex;
+  }
+  .button {
+    flex: 1;
+    padding: 20px;
+    font-size: 18px;
+    cursor: pointer;
+    outline: none;
+    background-color: rgb(143, 173, 83);
+    transition: background-color 0.3s;
+  }
+
+ .button:hover {
+    background-color: orange;
+  }
